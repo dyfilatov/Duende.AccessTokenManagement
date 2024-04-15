@@ -24,6 +24,11 @@ public class TokenRequestParameters
     /// Override the statically configured resource parameter.
     /// </summary>
     public string? Resource { get; set; }
+    
+    /// <summary>
+    /// Gets or sets the subject token for token exchange.
+    /// </summary>
+    public string? SubjectToken { get; set; }
 
     /// <summary>
     /// Additional parameters to send.
